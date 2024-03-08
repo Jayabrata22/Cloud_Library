@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Index{
+    background-image: url(Images/back2.jpg);  /* The image used as the background */
+    background-size: cover;    /* Make sure that the image covers the entire*/
+    background-position:  center; /* Center the image vertically and horizontaly*/
+    background-repeat: repeat;   /* Do not repeat the image */
+}
+
+/*Style on the navigation Bar*/
+nav{
+    background-color:rgba(227, 249, 249, 0.963);
+}
+
+/* Style the list (ul) within the navigation bar */
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+/* Style the list items (li) within the navigation bar */
+nav ul li{
+    float: right;
+}
+/* Style the links (a) within the list items */
+nav ul li a {
+    display: block; /* Display the links as block elements */
+    color: black; /* Text color of the links */
+    text-align: center; /* Align text to the center */
+    padding: 14px 16px; /* Add padding to create space around the links */
+    text-decoration: none; /* Remove underline from links */
+}
+/* Style the links (a) on hover */
+nav ul li a:hover {
+    background-color: white; /* Change background color on hover */
+}
+
+.search{
+    background-color:rgba(227, 249, 249, 0.963);
+}
+
+h2{
+    text-align: center;
+}
+.Search-Box{
+    text-align: center;
+    margin: auto;
+   
+    
+}
+.Search-Box input[type="text"] {
+    padding: 8px; /* Add padding to the input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    margin-right: 5px; /* Add some space between input and button */
+    margin-top: 160px;
+    text-align: center;
+    flex: 1;
+}
+.Search-Box button {
+    padding: 8px 12px; /* Add padding to the button */
+    background-color: #4CAF50; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
